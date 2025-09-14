@@ -50,7 +50,7 @@ local function StartInspecting()
             false
         )
 
-        if Config.first_peason then
+        if Config.first_pearson then
             SetFollowPedCamViewMode(4)
         end
     end)
@@ -87,8 +87,8 @@ local function StopInspecting()
             false
         )
 
-        if Config.first_peason then
-            SetFollowPedCamViewMode(4)
+        if Config.first_pearson then
+            SetFollowPedCamViewMode(0)
         end
     end)
 end
