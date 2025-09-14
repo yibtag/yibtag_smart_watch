@@ -1,0 +1,82 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: none;
+    background-color: black;
+}
+
+#container {
+    width: 80vw;
+    height: 80vh;
+
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-outer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+}
+
+.circle-inner {
+    width: 80%;
+    height: 80%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+    background-color: black;
+}
+
+#health {
+    width: 100%;
+    height: 100%;
+
+    background: conic-gradient(
+        #fb1756 0%,
+        #4b1d28 0
+    );
+}
+
+#armour {
+    width: 90%;
+    height: 90%;
+
+    background: conic-gradient(
+        #a4ff02 0%,
+        #364816 0
+    );
+}
+
+#armour-inner {
+    width: 70%;
+    height: 70%;
+}
+
+#stamina {
+    width: 80%;
+    height: 80%;
+
+    background: conic-gradient(
+        #03e9f6 0%,
+        #124443 0
+    );
+}
+
+#stamina-inner {
+    width: 50%;
+    height: 50%;
+}
